@@ -5,4 +5,7 @@ Users are encouraged to send different types of repors including but no limited 
 - social media accounts
 - telegram accounts/channels
 - email addresses
+- obscene content aimed at children (under 18)
+- terrorizing content 
+- fake news, disinformation to divert public's opinion
 Reports will be verified and took down if violations are found.
