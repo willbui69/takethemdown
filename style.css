@@ -61,7 +61,7 @@ footer {
     width: 100%;
 }
 .contact-button {
-    background-color: #4CAF50;
+    background-color: #45a049;
     color: white;
     padding: 12px 24px;
     text-align: center;
@@ -71,5 +71,54 @@ footer {
     transition: background-color 0.3s ease;
 }
 .contact-button:hover {
-    background-color: #45a049; /* Darker shade of green on hover */
+    background-color: #00acee; 
+}
+
+#our-impact {
+    padding: 3rem 10%;
+    background-color: #3B3291; 
+    color: white;
+    text-align: center;
+}
+
+.our-impact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 5rem;
+}
+
+.impact-stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.stat-card {
+    background-color: black;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    flex: 1 1 200px;
+    max-width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.stat-card h3 {
+    font-size: 2rem;
+    color: #37B7C3; 
+    margin-bottom: 0.5rem;
+}
+
+.stat-card p {
+    font-size: 1.2rem;
+    color: #F5F7F8;
+}
+
+.stat-card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
 }
